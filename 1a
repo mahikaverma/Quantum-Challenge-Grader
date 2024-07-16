@@ -1,0 +1,8 @@
+def get_qc_characteristics(qc):
+    depth = qc.depth()
+    num_qubits = qc.num_qubits
+    ops = qc.count_ops()
+    num_multi_qubit_ops = sum(1 for _, count in ops.items() if count > 1)
+    return {"depth": depth, "num_qubits": num_qubits, "ops": ops, "num_multi_qubit_ops": num_multi_qubit_ops}
+
+print_qc_characteristics(qc)
