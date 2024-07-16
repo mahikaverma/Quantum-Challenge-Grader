@@ -17,13 +17,13 @@ To install the grader locally:
 1. In the Python environment, install the grading client
 
     ```
-    pip install git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git
+    pip install git+https://github.com/ryanhill1/Quantum-Challenge-Grader.git
     ```
 
-    Alternatively, if you also need to install JupyterLab and Qiskit along with the grader you can instead run:
+    Alternatively, if you also need to install Qiskit along with the grader you can instead run:
 
     ```
-    pip install 'qc-grader[qiskit,jupyter] @ git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git'
+    pip install 'qc-grader[qiskit] @ git+https://github.com/ryanhill1/Quantum-Challenge-Grader.git'
     ```
 
 1. Configure the `QXToken` environment variables
