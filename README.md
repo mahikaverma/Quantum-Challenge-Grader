@@ -8,7 +8,7 @@ Grading client for the IBM Quantum Challenge grading service.
 Pre-requisites:
 
 - [IBM Quantum account](https://quantum.ibm.com/)
-- [Python](https://www.python.org/) (3.10 or later) environment with
+- [Python](https://www.python.org/) (3.9 or later) environment with
     - Classic [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install/notebook-classic.html) interface or [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
     - [Qiskit](https://qiskit.org/documentation/index.html)
 
