@@ -47,7 +47,7 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
-        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Scientific/Engineering',
     ],
     keywords='qiskit quantum challenge grader',
@@ -58,7 +58,7 @@ setup(
     install_requires=REQUIREMENTS,
     include_package_data=True,
     zip_safe=False,
-    python_requires='>=3.10',
+    python_requires='>=3.9',
     extras_require={
         'qiskit': QISKIT_REQUIREMENTS,
         'jupyter': JUPYTER_REQUIREMENTS

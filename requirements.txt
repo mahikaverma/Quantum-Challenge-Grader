@@ -1,9 +1,9 @@
 typeguard
-jsonpickle==3.0.3
+jsonpickle
 
 ipycytoscape
 plotly
-networkx==3.2.1
+networkx
 
 # IBM Quantum Challenge 2024
 graphviz

@@ -1,6 +1,6 @@
-qiskit[visualization]==1.1.0
+qiskit[visualization]
 qiskit-ibm-runtime
 qiskit-aer
 qiskit-transpiler-service
-qiskit-serverless==0.12.0
+qiskit-serverless
 circuit-knitting-toolbox
